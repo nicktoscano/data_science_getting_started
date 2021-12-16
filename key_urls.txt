@@ -1,0 +1,41 @@
+Free Tier
+https://www.oracle.com/cloud/free/
+
+LiveLabs
+https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=861&clear=180&session=107591311674854
+
+OCI Documentation
+https://docs.oracle.com/en-us/iaas/Content/home.htm
+
+Sail GP information
+https://www.oracle.com/sailgp/
+
+Ask Tom (Look for Data Science and Machine Learning Videos)
+https://asktom.oracle.com/pls/apex/f?p=100:1000::::::
+
+Oracle Github
+https://github.com/oracle
+
+Natural LAaguage Processing
+https://www.oracle.com/artificial-intelligence/what-is-natural-language-processing/#selecting
+
+NLP Clustering Example on Data Science Service
+https://blogs.oracle.com/ai-and-datascience/post/natural-language-processing-nlp-conda-pack
+
+Data Science Environments
+https://docs.oracle.com/en-us/iaas/data-science/using/conda_environ_list.htm
+
+What is Machine Learning?
+https://www.oracle.com/data-science/machine-learning/what-is-machine-learning/
+
+Computer Vision:
+https://www.oracle.com/news/connect/teaching-computers-to-see-more-sharply-with-processing-in-the-cloud.html
+
+Computer Vision Examples:
+https://blogs.oracle.com/ai-and-datascience/post/computer-vision-examples-data-science-platform
+
+Deep Learning
+https://in.mathworks.com/discovery/deep-learning.html
+
+Red bull Hands On Lab
+https://www.youtube.com/watch?v=wf-6D5WmoXc
