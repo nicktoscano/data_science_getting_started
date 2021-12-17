@@ -1,0 +1,9 @@
+Work on You Own Demo
+
+Use this Article
+
+https://towardsdatascience.com/building-an-artificial-neural-network-in-one-line-of-code-9addc414c5e9
+
+Guided walk through here
+
+https://www.youtube.com/watch?v=KNkSIUvhQ2A&list=PLKCk3OyNwIzv6CWMhvqSB_8MLJIZdO80L&index=10
