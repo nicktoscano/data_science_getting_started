@@ -1,0 +1,89 @@
+Create custom conda environment:
+
+https://docs.oracle.com/en-us/iaas/data-science/using/conda_create_conda_env.htm
+
+You can create a custom conda environment from a conda compatible environment file (environment.yaml) using the odsc conda create command. By default, the create option also installs additional libraries to ensure that the conda environment is compatible with JupyterLab and the OCI services. The most important libraries that are added are oci, ipykernel, jupyterlab, nb_conda_kernels, and cx_oracle. You can overwrite this default behavior by adding the optional argument --empty, -e then no extra libraries are added to your conda environment.
+
+You can create a conda environment from a conda compatible environment file with:
+odsc conda create -n <environment-name> -v <environment-version> -f <environment.yaml>
+
+If you want to create the environment from an empty base, use the --empty optional argument:
+odsc conda create -n <environment-name> -v <environment-version> -f <environment.yaml> --empty
+
+Note
+
+We strongly recommend that you do not use the --empty argument. Because the conda environment that you create may not be accessible as a kernel in JupyterLab.
+
+
+### Step 1: Open or launch a notebook session
+
+### Step 2: Write a conda-compatible environment.yaml File 
+
+channels: 
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - pip:
+     - scikit-learn==0.24.2
+
+### Step 3: Create the conda environment with odsc conda create Command 
+
+odsc will install the additional Python dependencies (ipykernel, jupyterlab, nb_conda_kernels) that are required for your conda environment to become available as a JupyterLab notebook kernel, and it will automatically create the conda environment manifest file on your behalf. You can find the list of all the additional dependencies that odsc installs in the file base-env.yaml. The odsc conda create command generates that file in the same folder as your environment.yaml file. 
+
+Open a terminal window in your notebook session and run: 
+
+odsc conda create -f environment.yaml -n demo-conda-env
+
+This command will create a brand new kernel in your notebook session called my-conda-env. A version v1.0 will be assigned to the conda environment by default and appended to the name of conda slugname. You can change that by assigning a value to the create command optional parameter -v.
+
+The command will take a couple of minutes to complete. Explore the different options that are available to you when creating a conda by running: 
+
+odsc conda create --help
+
+odsc conda -h
+
+### Step 4: Validate the new conda environment
+
+Go back to the launcher tab of your notebook session. You should see the new kernel available under "Notebook" and "Console".
+
+Click on the new notebook kernel button to generate a new notebook file (ipynb). Confirm that the notebook is executed in the kernel you just created. The name of the kernel shows up in the top right corner of the notebook tab.
+
+In your notebook, import numpy and pandas and confirm that these libraries are available in your environment. Do the same thing for scikit-learn if you installed it from pypi: 
+
+import numpy 
+import pandas 
+import sklearn 
+
+print(numpy.__version__)
+print(pandas.__version__)
+print(sklearn.__version__)
+
+### Step 5: Publish the new environment 
+
+Once you've successfully created the conda environment, you can use it to run notebooks and Python scripts. If you want to share the conda environment with your colleagues or across notebook sessions or assign it as a runtime environment for Model Deployment, you will have to publish the environment. 
+
+Publishing a conda environment consists of creating a pack and uploading it to an Object Storage bucket that you specify. This lets conda environments be shared among colleagues or persisted across notebook sessions. We recommend that you publish conda environments to ensure that a model training environment can be reproduced or re-used for model deployment (that is, assign it as the inference environment of your model). 
+
+You can use the odsc CLI to publish an environment. First, you need to specify the target object storage bucket where the published environment will be stored. This can be done through the odsc conda init command: 
+
+odsc conda init -b  -n  -a {api_key | resource_principal}
+
+You only have to run this command once after you started your notebook session. You need to replace the values above with the name of your object storage bucket, the namespace of your OCI tenancy, and select the method of authentication you want to use to authenticate with object storage: api_key if you are using user principal (you will need to provide the path to your oci config file with the -k option) or resource_principal if your notebook session is authorized to access the bucket you specified. 
+
+Now you are ready to publish the environment. Use the odsc conda publish command. Specify the slug name of the conda environment you just created. The slug name is the name of the conda environment and its version. It corresponds to the notebook kernel name minus the "conda-env:" part. In my case, it would be my-conda-envv1_0. Yours should be same if you executed the same odsc commands. You can also find the slug name by inspecting the conda environment cards in the Environment Explorer extension (see below). 
+
+odsc conda publish -s my-conda-envv1_0
+
+The publish command uses object storage multipart upload feature to push the pack to object storage faster.  
+
+Go to your object storage bucket in the OCI console and confirm that the new conda pack is stored in the bucket. 
+
+###Listing the conda environments through the environment explorer extension 
+
+In the Environment Explorer extension of the notebook session, you can also list and inspect all the condas that you have available in your notebook session and the ones that are published to a shared object storage bucket. 
+
+Click on the "Installed Conda Environments" tab. You should see a card with your conda environment.
+
+Now click on the "Published Conda Environments" tab. You should see a card with your publish conda environment. If your team is using the same bucket to publish their conda environments, you will be able to see the conda environments that your colleagues have created. This allows you to install condas in your notebook session that others have published to the bucket. This is also a good way to archive or share environments across notebook sessions. 
+
