@@ -39,3 +39,5 @@ https://in.mathworks.com/discovery/deep-learning.html
 
 Red bull Hands On Lab
 https://www.youtube.com/watch?v=wf-6D5WmoXc
+
+https://github.com/oracle-devrel/redbull-analytics-hol
