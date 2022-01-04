@@ -25,6 +25,7 @@ instructions for building a custom environment are provided in the create_custom
 
 ## Recommended LiveLabs
 1. Introduction to Data Science Lab - https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=788&clear=180&session=23406212969439
+2. Speed up Data Science with the Accelerated Data Science SDK - https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=673&clear=180&session=106659968371653
 
 ## Independent Hands-On
 Work on your own using online resources:
@@ -33,6 +34,10 @@ Work on your own using online resources:
 
 ## Recommended Reading
 1. Machine Learning ion Oracle Database - https://blogs.oracle.com/machinelearning/post/machine-learning-in-oracle-database
+2. Model deployment for real-time predictions is now available in Oracle Cloud Infrastructure Data Science - https://blogs.oracle.com/ai-and-datascience/post/model-deployment-real-time-predictions
+3. Oracle Announces New AI Services for Oracle Cloud Infrastructure - https://www.oracle.com/news/announcement/oracle-announces-new-ai-services-for-oracle-cloud-infrastructure-2021-11-3/
+4. Applying Logistic Regression Model in Oracle Analytics - https://blogs.oracle.com/analytics/post/applying-logistic-regression-model-in-oracle-analytics
+5. Clustering text documents using the natural language processing (NLP) conda pack in OCI Data Science - https://blogs.oracle.com/ai-and-datascience/post/natural-language-processing-nlp-conda-pack
 
 ## Reference Architecture
 * See annoucement blog, Oracle Cloud infrastructure Architecture Center: https://blogs.oracle.com/cloud-infrastructure/post/announcing-the-oracle-cloud-infrastructure-architecture-center
@@ -40,3 +45,15 @@ Work on your own using online resources:
 * Architecture center landing page: https://www.oracle.com/cloud/architecture-center/
 
 * All refernce architectures: https://docs.oracle.com/solutions/?q=&cType=reference-architectures%2Csolution-playbook%2Cbuilt-deployed&sort=date-desc&lang=en
+
+## Explore OCI Data Science
+Try Oracle Cloud Free Tier! A 30-day trial with US$300 in free credits gives you access to OCI Data Science service.
+
+Ready to learn more about the OCI Data Science service?
+•	Configure your OCI tenancy with these setup instructions and start using OCI Data Science. 
+•	Star and clone our new GitHub repo! We’ve included notebook tutorials and code samples. 
+•	Visit our service documentation.
+•	Watch our tutorials on our YouTube playlist.
+•	Subscribe to our Twitter feed.
+•	Visit the Oracle Accelerated Data Science Python SDK Documentation.
+•	Try one of our LiveLabs. Search for “data science”. 
