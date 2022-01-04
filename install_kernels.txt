@@ -1,7 +1,0 @@
-TO INSTALL NEW KERNALS
-
-source activate myenv
-
-conda install pip
-
-conda install ipykernel # or pip install ipykernel
