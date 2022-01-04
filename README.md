@@ -15,13 +15,13 @@ Additional presentation material:
 * OKIT overview slide
 
 ## Demos
-ann demo
-nlp_clustering.ipynb
-polling.ipynb
-lin_reg.zip
+* ann_test.ipynb
+* nlp_clustering.ipynb
+* polling.ipynb
+* lin_reg.zip
 
 ## Build a Custom Data Science Environment
-instructions for building a custom environment are provided in the create_custom_env.txt.  An example environment file is also provided via environment.yaml.
+Instructions for building a custom environment are provided in the create_custom_env.txt.  An example environment file is also provided via environment.yaml.
 
 ## Recommended LiveLabs
 1. Introduction to Data Science Lab - https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=788&clear=180&session=23406212969439
@@ -50,10 +50,10 @@ Work on your own using online resources:
 Try Oracle Cloud Free Tier! A 30-day trial with US$300 in free credits gives you access to OCI Data Science service.
 
 Ready to learn more about the OCI Data Science service?
-•	Configure your OCI tenancy with these setup instructions and start using OCI Data Science. 
-•	Star and clone our new GitHub repo! We’ve included notebook tutorials and code samples. 
-•	Visit our service documentation.
-•	Watch our tutorials on our YouTube playlist.
-•	Subscribe to our Twitter feed.
-•	Visit the Oracle Accelerated Data Science Python SDK Documentation.
-•	Try one of our LiveLabs. Search for “data science”. 
+* Configure your OCI tenancy with these setup instructions and start using OCI Data Science. 
+* Star and clone our new GitHub repo! We’ve included notebook tutorials and code samples. 
+* Visit our service documentation.
+* Watch our tutorials on our YouTube playlist.
+* Subscribe to our Twitter feed.
+* Visit the Oracle Accelerated Data Science Python SDK Documentation.
+* Try one of our LiveLabs. Search for “data science”. 
