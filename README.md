@@ -10,7 +10,7 @@ This is a multi-part presentation for introducing new users to the Oracle Data S
 6. Resources - Provides additional resources provided by Oracle for data scientists.
 
 Additional presentation material:
-Ref Architecture - Provides example architecture for data science and url to the Oracle Architecture Center.
+* Ref Architecture - Provides example architecture for data science and url to the Oracle Architecture Center.
 
 # Demos
 
@@ -22,8 +22,8 @@ Ref Architecture - Provides example architecture for data science and url to the
 1. Machine Learning ion Oracle Database - https://blogs.oracle.com/machinelearning/post/machine-learning-in-oracle-database
 
 # Reference Architecture
-See annoucement blog, Oracle Cloud infrastructure Architecture Center: https://blogs.oracle.com/cloud-infrastructure/post/announcing-the-oracle-cloud-infrastructure-architecture-center
+* See annoucement blog, Oracle Cloud infrastructure Architecture Center: https://blogs.oracle.com/cloud-infrastructure/post/announcing-the-oracle-cloud-infrastructure-architecture-center
 
-Architecture center landing page: https://www.oracle.com/cloud/architecture-center/
+* Architecture center landing page: https://www.oracle.com/cloud/architecture-center/
 
-All refernce architectures: https://docs.oracle.com/solutions/?q=&cType=reference-architectures%2Csolution-playbook%2Cbuilt-deployed&sort=date-desc&lang=en
+* All refernce architectures: https://docs.oracle.com/solutions/?q=&cType=reference-architectures%2Csolution-playbook%2Cbuilt-deployed&sort=date-desc&lang=en
