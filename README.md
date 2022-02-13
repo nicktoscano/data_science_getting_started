@@ -1,6 +1,12 @@
 # data_science_getting_started
 This is a multi-part presentation for introducing new users to the Oracle Data Science Platform.  This is designed to be a training session for users that have access to Oracle Data Sceince Platform through OCI free tier.
 
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://youtu.be/akL_bGRo5gM" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
 ## Presentations
 1. Session Objectives - This presents the 5 major goals of the training session.
 2. Why Data Science in the Cloud - General overview of data science trends and benefits of data science in the cloud.
