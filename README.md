@@ -3,7 +3,7 @@ This is a multi-part presentation for introducing new users to the Oracle Data S
 
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="https://youtu.be/akL_bGRo5gM" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/akL_bGRo5gM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 <!-- blank line -->
 
