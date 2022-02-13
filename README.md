@@ -1,11 +1,7 @@
 # data_science_getting_started
 This is a multi-part presentation for introducing new users to the Oracle Data Science Platform.  This is designed to be a training session for users that have access to Oracle Data Sceince Platform through OCI free tier.
 
-<!-- blank line -->
-<figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/akL_bGRo5gM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
-<!-- blank line -->
+[![IMAGE_ALT]](https://www.youtube.com/embed/akL_bGRo5gM)
 
 ## Presentations
 1. Session Objectives - This presents the 5 major goals of the training session.
